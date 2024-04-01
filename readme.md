@@ -43,6 +43,7 @@ To use the next word predictor:
 ## Example
 
 ```python
+# just a overview of how code looks.do check main code inside the ipynb file
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, LSTM, Dense
 
@@ -61,3 +62,13 @@ model.fit(X_train, y_train, epochs=10, batch_size=32, validation_data=(X_val, y_
 # Predict next word
 next_word = model.predict_classes(input_sequence)
 ```
+
+## Author
+
+Ram Kumar
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
